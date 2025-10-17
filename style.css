@@ -11,17 +11,21 @@ h1{
 }
 
 .inputField{
-    padding: 10px;
-    width: 40%;
-    border: none;
+  padding: 10px;
+  width: 50vw; /* было 40%, делаем чуть короче */
+  border: none;
+  border-radius: 10px;
+  box-sizing: border-box;
 }
 
 .btn{
-    padding: 20px;
-    background-color: #2a33ac;
-    border: none;
-    border-radius: 6px;
+  padding: 20px;
+  background-color: #2a33ac;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
 }
+
 
 body{
     background-image: url(https://images.unsplash.com/photo-1506619216599-9d16d0903dfd?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1498&q=80);
@@ -33,14 +37,19 @@ body{
 }
 
 .toDoAdded{
-    background: #B97A95;
-    list-style-type: none;
-    height: 60px;
-    width: 50%;
-    text-align: center;
-    color: white;
-    font-size: 20px;
-    border-bottom: 1px solid #FDD2BF ;
+ background: #B97A95;
+  list-style-type: none;
+  height: 60px;
+  width: 45%;
+  display: flex;
+  align-items: center;       /* выравнивание по вертикали */
+  justify-content: center;   /* выравнивание по горизонтали */
+  color: white;
+  font-size: 20px;
+  border-bottom: 1px solid #FDD2BF;
+  text-align: center;
+  border-radius: 20px;
+  
 }
 
 .toDoContainer{
